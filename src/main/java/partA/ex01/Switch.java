@@ -11,9 +11,9 @@ public class Switch {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a Number:");
-        int grade = in.nextInt();
+        int date = in.nextInt();
         in.close();
-        switch (grade) {
+        switch (date) {
             case 1:
                 response += ("January");
                 break;

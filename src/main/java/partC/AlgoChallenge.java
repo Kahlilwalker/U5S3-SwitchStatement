@@ -16,6 +16,23 @@ public class AlgoChallenge {
 
     public static Boolean dogTrouble(boolean bulldogGrowl, boolean labGrowl) {
 
+        if (bulldogGrowl == true && labGrowl == true){
+            System.out.println(true);
+        }
+
+        if (bulldogGrowl == true && labGrowl == false){
+            System.out.println(false);
+        }
+
+        if (bulldogGrowl == false && labGrowl == true){
+            System.out.println(false);
+        }
+
+        if (bulldogGrowl == false && labGrowl == false){
+            System.out.println(true);
+        }
+
+
         return null;
     }
 
